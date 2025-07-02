@@ -1,0 +1,5 @@
+/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_traffic_lights/CMakeFiles/edit_cache.dir
+/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_traffic_lights/CMakeFiles/rebuild_cache.dir
+/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_traffic_lights/main/CMakeFiles/stm32_rt.dir
+/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_traffic_lights/main/CMakeFiles/edit_cache.dir
+/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_traffic_lights/main/CMakeFiles/rebuild_cache.dir
