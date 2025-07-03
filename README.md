@@ -22,7 +22,7 @@ sudo apt install gcc-arm-none-eabi
 ## Running 
 
 ```bash
-git clone https://github.com/Ouabm/stm32_lab_project.git
+git clone https://github.com/Ouabm/stm32_traffic_lights.git
 ```
   then
 ```bash
