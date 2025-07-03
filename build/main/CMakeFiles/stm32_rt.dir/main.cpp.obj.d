@@ -272,14 +272,4 @@ main/CMakeFiles/stm32_rt.dir/main.cpp.obj: \
  /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Core/Inc/stm32h7xx_nucleo_conf.h \
  /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo_errno.h \
  /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Core/Inc/usart.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Core/Inc/main.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/USB_DEVICE/App/usb_device.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/USB_DEVICE/Target/usbd_conf.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/USB_DEVICE/App/usbd_cdc_if.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+ /home/oualid-boudemagh/Bureau/stm32_traffic_lights-/main/include/Core/Inc/main.h

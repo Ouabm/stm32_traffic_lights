@@ -64,7 +64,6 @@ void Error_Handler(void);
 #define JTMS_GPIO_Port GPIOA
 #define JTCK_Pin GPIO_PIN_14
 #define JTCK_GPIO_Port GPIOA
-#define PRINT int__in_putchar(int data)
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

@@ -8,13 +8,14 @@
 #include "stm32h7xx_hal_dma.h"
 #include "stm32h7xx_hal_uart.h"
 
-
 using namespace cadmium;
 
-struct top_coupled : public Coupled {
-    top_coupled(const std::string& id) : Coupled(id) {
-         __HAL_RCC_GPIOB_CLK_ENABLE();
-         __HAL_RCC_GPIOE_CLK_ENABLE();
+struct top_coupled : public Coupled
+{
+    top_coupled(const std::string &id) : Coupled(id)
+    {
+        __HAL_RCC_GPIOB_CLK_ENABLE();
+        __HAL_RCC_GPIOE_CLK_ENABLE();
 
         auto atomique = addComponent<atomic_model>("atomique");
 
@@ -24,26 +25,22 @@ struct top_coupled : public Coupled {
             .Mode = GPIO_MODE_OUTPUT_PP,
             .Pull = GPIO_NOPULL,
             .Speed = GPIO_SPEED_FREQ_LOW,
-            .Alternate = 0
-        };
+            .Alternate = 0};
         static GPIO_InitTypeDef led_config2 = {
             .Pin = GPIO_PIN_1,
             .Mode = GPIO_MODE_OUTPUT_PP,
             .Pull = GPIO_NOPULL,
             .Speed = GPIO_SPEED_FREQ_LOW,
-            .Alternate = 0
-        };
+            .Alternate = 0};
         static GPIO_InitTypeDef led_config3 = {
             .Pin = GPIO_PIN_14,
             .Mode = GPIO_MODE_OUTPUT_PP,
             .Pull = GPIO_NOPULL,
             .Speed = GPIO_SPEED_FREQ_LOW,
-            .Alternate = 0
-        };
+            .Alternate = 0};
 
-        GPIO_TypeDef* led_port = GPIOB;
-        GPIO_TypeDef* led_port2 = GPIOE;
-        
+        GPIO_TypeDef *led_port = GPIOB;
+        GPIO_TypeDef *led_port2 = GPIOE;
 
         // Ajout du composant DigitalOutput avec paramètres
         auto digitaloutput = addComponent<DigitalOutput>(
@@ -52,11 +49,10 @@ struct top_coupled : public Coupled {
             led_port2,
             &led_config1,
             &led_config2,
-            &led_config3
-        );
+            &led_config3);
 
         addCoupling(atomique->out, digitaloutput->in);
     }
 };
 
-#endif  // SAMPLE_TOP_HPP
+#endif // SAMPLE_TOP_HPP

@@ -21,7 +21,6 @@
 #include "memorymap.h"
 #include "tim.h"
 #include "usart.h"
-#include "usb_device.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -54,7 +53,7 @@ COM_InitTypeDef BspCOMInit;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-static void MPU_Config(void);
+//static void MPU_Config(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -188,11 +187,6 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-PRINT {
-	HAL_UART_Transmit(&huart2,(uint8_t*)&data , 1,0xFFFF);
-	return data;
-
-}
 /* USER CODE END 4 */
 
  /* MPU Configuration */
