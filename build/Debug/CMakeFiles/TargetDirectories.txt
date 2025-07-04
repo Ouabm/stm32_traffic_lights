@@ -1,5 +1,0 @@
-/home/oualid-boudemagh/Bureau/stm32_traffic_lights-/build/Debug/CMakeFiles/edit_cache.dir
-/home/oualid-boudemagh/Bureau/stm32_traffic_lights-/build/Debug/CMakeFiles/rebuild_cache.dir
-/home/oualid-boudemagh/Bureau/stm32_traffic_lights-/build/Debug/main/CMakeFiles/stm32_rt.dir
-/home/oualid-boudemagh/Bureau/stm32_traffic_lights-/build/Debug/main/CMakeFiles/edit_cache.dir
-/home/oualid-boudemagh/Bureau/stm32_traffic_lights-/build/Debug/main/CMakeFiles/rebuild_cache.dir
