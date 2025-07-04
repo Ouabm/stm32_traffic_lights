@@ -30,6 +30,6 @@ cd stm32_traffic_lights/
 ```
   then
 ```bash
-./Build_stm32
+./build_stm32
 ```
 
